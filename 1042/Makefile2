@@ -1,0 +1,12 @@
+CC = gcc
+CFLAGS = -g -Wall
+LDFLAGS = -O2 -lm --static -std=c99
+objects = Main2.o
+Main : $(objects)
+	$(CC) -o Main2 $(objects) $(LDFLAGS)
+Main.o : Main2.c
+	$(CC) -c Main2.c $(CFLAGS)
+.PHONY : clean
+clean :
+	-rm Main22 $(objects)
+

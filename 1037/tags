@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	Main.c	/^char A[402];$/;"	v
+B	Main.c	/^char B[402];$/;"	v
+C	Main.c	/^char C[402];$/;"	v
+MUL	Main.c	/^char MUL[803];$/;"	v
+SUB	Main.c	/^char SUB[403];$/;"	v
+SUM	Main.c	/^char SUM[403];$/;"	v
+compare	Main.c	/^int compare(char *A, int i, char *B, int j);$/;"	p	file:	signature:(char *A, int i, char *B, int j)
+main	Main.c	/^int main()$/;"	f
+mul	Main.c	/^char *mul(int i, int j);$/;"	p	file:	signature:(int i, int j)
+mysum	Main.c	/^void mysum(char *MUL, char *temp[403], int i);$/;"	p	file:	signature:(char *MUL, char *temp[403], int i)
+sub	Main.c	/^char *sub(char *A, char *B, int i, int j);$/;"	p	file:	signature:(char *A, char *B, int i, int j)
+sum	Main.c	/^char *sum(int i, int j)$/;"	f	signature:(int i, int j)
+sum	Main.c	/^char *sum(int i, int j);$/;"	p	file:	signature:(int i, int j)
+temp	Main.c	/^char temp[10][403];$/;"	v
