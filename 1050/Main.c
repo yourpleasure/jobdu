@@ -42,9 +42,9 @@ int main()
 			for(i = max+1; i <= n; i++){
 				sum = 1;
 				t = (int)sqrt(i);
-				if(i == t * t) sum += t;
-				for(j = 2; j < t; j++)
+				for(j = 2; j <= t; j++)
 					if(!(i%j)) sum = sum + j + i/j;
+				if(t * t == i) sum -= t;
 				if(sum == i){
 					q = (node *)malloc(sizeof(node));
 					q->next = NULL;
