@@ -8,5 +8,5 @@ Main.o : Main2.c
 	$(CC) -c Main2.c $(CFLAGS)
 .PHONY : clean
 clean :
-	-rm Main22 $(objects)
+	-rm Main2 $(objects)
 
